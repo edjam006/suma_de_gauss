@@ -8,6 +8,7 @@ int main(void){
         printf("Ingrese un numero entero positivo\n");
     } else {
         sum= (num * (num + 1))/2;
+        printf("La suma de Gauss del numero %d es: %d", num, sum);
     }
 
 }
