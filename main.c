@@ -22,6 +22,7 @@ int main(){
         }
         break;
     case 2: 
+        sum2= 0;
         printf ("Ingrese un numero entero\n");
         scanf("%d", &num);
         for (i= 1; i <= num; i++){
@@ -29,8 +30,12 @@ int main(){
         }
         printf("La suma de Gauss del numero %d es: %d\n", num, sum2);
     default:
+        if (opc > 3 || opc < 1){
+
+        
         printf("La opcion ingresada no es correcta\n");
         break;
+        }
     }
     } while (opc != 3);
     
